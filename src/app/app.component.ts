@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import {Types} from './Types';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'Welcome to xyz';
   types: Types[] ;
@@ -21,5 +23,7 @@ export class AppComponent {
                     'keyword': 'power',
                 }];
   }
+
+
 
 }
